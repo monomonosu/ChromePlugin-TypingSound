@@ -14,5 +14,10 @@
                 "js/content_script.js"
             ]
         }
-    ]
+    ],
+    "icons":{
+        "16":"resource/icons/mewmew16.png",
+        "48":"resource/icons/mewmew48.png",
+        "128":"resource/icons/mewmew128.png"
+    }
 }
