@@ -1,9 +1,12 @@
 {
     "name": "MewMewTyping",
-    "description": "タイピングの際に音を鳴らすための拡張機能です。",
+    "description": "タイピングの際に猫が鳴きます。",
     "version": "1.0.0",
     "manifest_version": 3,
-
+    "web_accessible_resources": [{
+        "resources": ["resource/sound/neko.mp3"],
+        "matches": ["<all_urls>"]
+    }],
     "content_scripts":[
         {
             "matches":["<all_urls>"],
