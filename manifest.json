@@ -15,6 +15,9 @@
             ]
         }
     ],
+    "action": {
+        "default_popup": "html/popup.html"
+    },
     "icons":{
         "16":"resource/icons/mewmew16.png",
         "48":"resource/icons/mewmew48.png",
